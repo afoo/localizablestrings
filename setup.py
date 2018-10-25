@@ -5,7 +5,7 @@ with open('README.md') as fh:
 
 setuptools.setup(
     name='localizablestrings',
-    version='1.0',
+    version='1.2',
     author='Jan Hülsbergen',
     author_email='jan@afoo.de',
     description='Localizable.strings reader and writer',

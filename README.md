@@ -20,6 +20,6 @@ if sf.get_translation('spam') is None:
     new_translation = Translation(key='spam', value='eggs', comment='Needs more bacon')
     sf.add_translation(new_translation)
 
-s.write()
+sf.write()
 
 ```
